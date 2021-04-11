@@ -5,6 +5,7 @@ let nameOfFemales = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 function getDetails(){
     let year = parseInt(document.getElementById("year").value);
     let month = parseInt(document.getElementById("month").value);
-    let day = parseInt(document.getElementById("day").value);
-    console.log(year, month, day)
+    var date = parseInt(document.getElementById("date").value);
+    var gender = document.getElementById("gender").value;
+    console.log(year, month, date, gender)
 }
