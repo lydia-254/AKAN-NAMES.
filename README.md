@@ -15,7 +15,7 @@ You can install it with the following command in your terminal.
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
 2. Use this command to clone `$ git clone https://github.com/lydia-254/AKAN-NAMES.git`
-3. This will clone the repositoty into your local folder
+3. This will clone the repositoty into your local folder.
  __Enjoy :)__
 
 ### Technologies Used
@@ -34,7 +34,7 @@ To access this project on your local files, you can clone it using these steps
 | Date   | The date of the month ``eg 15th day`` |
 
 ### Live Site
-View [Live] (https://lydia-254.github.io/AKAN-NAMES./)
+View [Live]( https://lydia-254.github.io/AKAN-NAMES./)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence.
