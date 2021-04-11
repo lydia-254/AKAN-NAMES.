@@ -8,4 +8,10 @@ function getDetails(){
     let date = parseInt(document.getElementById("date").value);
     let gender = document.getElementById("gender").value;
     console.log(year, month, date, gender)
+    if (month < 1 || month > 12) {
+        alert("invalid month");
+    }
+    if (year < 1900 || year > 2029) {
+        alert("invalid year")
+    }
 }
