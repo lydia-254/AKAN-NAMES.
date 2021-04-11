@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKAN NAMES.</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKAN NAMES.</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
-    <div class="container">
-    <div class="jumbotron">
+  <div class="container">
+    <div class="card">
+      <div class="jumbotron">
         <h1>AKAN NAMES.</h1>
         <p>The website shows a user's birthday and calculates the day of the week <br>
-            they were born depending on their gender outputs on the Akan names.</p>
-            <img src="akan.jpg" alt="">
+          they were born depending on their gender outputs on the Akan names.</p>
+        <img src="akan.jpg" alt="" length="130">
+      </div>
     </div>
-    <form>
-          <div class="form-group col-md-3">
-            <label for="year">Year of birth</label>
-            <input type="text" class="form-control" id="year" placeholder="Enter year of birth">
-          </div>
-          <div class="form-group col-md-3">
-            <label for="month">Month of birth</label>
-            <input type="text" class="form-control" id="month"  placeholder="Enter month of birth">
-          </div>
-          <div class="form-group col-md-3">
-            <label for="date"></label>Date of birth</label>
-            <input type="text" class="form-control" id="date"  placeholder="Enter date of birth">
-          </div>
-            <select class="form-control col-md-3" id="gender">
-                <option selected>Select your gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            <div class="form-group">
-                <input type="button" value="submit" onclick="getDetails()" class="btn btn-primary">
-            </div>
-    </form>
-    <footer class="footer">
-        <p>copyright(c)#Lydia-K 2021.All Rights Reserved.</p>
-    </footer>
+  </div>
+  <form>
+    <div class="form-group col-md-3">
+      <label for="year">Year of birth</label>
+      <input type="text" class="form-control" id="year" placeholder="Enter year of birth">
     </div>
-    <script src="scripts.js"></script>
+    <div class="form-group col-md-3">
+      <label for="month">Month of birth</label>
+      <input type="text" class="form-control" id="month" placeholder="Enter month of birth">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="date"></label>Date of birth</label>
+      <input type="text" class="form-control" id="date" placeholder="Enter date of birth">
+    </div>
+    <select class="form-control col-md-3" id="gender">
+      <option selected>Select your gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <div class="form-group">
+      <input type="button" value="submit" onclick="getDetails()" class="btn btn-primary">
+    </div>
+  </form>
+  <footer class="footer">
+    <p>copyright(c)#Lydia-K 2021.All Rights Reserved.</p>
+  </footer>
+  </div>
+  <script src="scripts.js"></script>
 </body>
+
 </html>
